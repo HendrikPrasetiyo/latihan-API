@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "API_latihan.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "API_latihan.py"
+      }
+    ]
+  }
