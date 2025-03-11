@@ -3,7 +3,7 @@ from fastapi import FastAPI, Header, HTTPException
 import pandas as pd
 
 
-secret = "kontolbapaklu"
+secret = "kocakbet"
 
 #memvuat instance/object
 app = FastAPI()
